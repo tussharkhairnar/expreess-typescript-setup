@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-typescript-setup",
+  "version": "1.0.0",
+  "description": "<h2>TYPESCRIPT CONFIGURATION FOR NODE ENVIRONMENT</h2>",
+  "main": "index.js",
+  "scripts": {
+    "start":"node dist/app.js",
+    "dev" : "nodemon src/app.ts",
+    "build":"tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tussharkhairnar/express-typescript-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tussharkhairnar/express-typescript-setup/issues"
+  },
+  "homepage": "https://github.com/tussharkhairnar/express-typescript-setup#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.17",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {}
+}
